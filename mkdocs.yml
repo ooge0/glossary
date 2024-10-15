@@ -1,0 +1,9 @@
+site_name: Glossary
+nav:
+  - Home: index.md
+  - MkDocs_usage: MkDocs_usage.md
+  - Glossary:
+      - Med glossary-1: med_glos_1_1.md
+theme: readthedocs
+extra_css:
+  - css/customWidth.css
