@@ -7,3 +7,10 @@ nav:
 theme: readthedocs
 extra_css:
   - css/customWidth.css
+plugins:
+  - search:
+      prebuild_index: true
+      encoding: 'utf-8'
+      lang:
+        - en
+        - ru
