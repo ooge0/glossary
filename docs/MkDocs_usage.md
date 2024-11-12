@@ -39,12 +39,26 @@ More info: [MkDocs Documentation](https://www.mkdocs.org/)
 
 ### yml_config-1- [readthedocs]{.title-ref} theme
 
-YML file [readthedocs]{.title-ref} theme .. code-block::yml site_name:
-Glossary Example nav: - Home: med_glos_1_1.md - About:
-MkDocs_usage.rst - Intro: MkDocs_usage.rst theme: readthedocs
-custom_dir: docs/css user_color_mode_toggle: true extra_css: -
-css/customWidth.css
-
+YML file [readthedocs]{.title-ref} theme 
+``` yml 
+site_name: Glossary
+nav:
+  - Home: index.md
+  - MkDocs_usage: MkDocs_usage.md
+  - Glossary:
+      - Medical glossary-1: medical-glossary-1.md
+      - Oncology glossary-1: oncology-glossary-1.md
+theme: readthedocs
+extra_css:
+  - css/customWidth.css
+plugins:
+  - search:
+      prebuild_index: true
+      encoding: 'utf-8'
+      lang:
+        - en
+        - ru
+```
 
 This configuration creates design like on the picture above
 
@@ -57,27 +71,26 @@ YML file [material]{.title-ref} theme
 ``` yml
 site_name: Glossary Example
 nav:
-- Home: med_glos_1_1.md
-- About: MkDocs_usage.rst
-- Intro: MkDocs_usage.rst
+    - Home: med_glos_1_1.md
+    - About: MkDocs_usage.rst
+    - Intro: MkDocs_usage.rst
 theme: material
-name:
 features:
-- navigation.tabs
-- navigation.expand
-- search.highlight
-- search.share
-- navigation.search
-- user_color_mode_toggle  # Enable the color mode toggle
+    - navigation.tabs
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - navigation.search
+    - user_color_mode_toggle  # Enable the color mode toggle
 palette:
-- scheme: default
-- scheme: slate
-- scheme: ocean
-- scheme: sepia
+    - scheme: default
+    - scheme: slate
+    - scheme: ocean
+    - scheme: sepia
 include_sidebar: true
 custom_dir: docs/css
 extra_css:
-  - css/customWidth.css
+      - css/customWidth.css
 ```
 
 This configuration creates design like on the picture above

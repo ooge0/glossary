@@ -9,22 +9,31 @@ nav:
   - Philosophy:
       - EN: en/en__philosophy_glossary_1.md
       - UA: uk/ua__philosophy_glossary_1.md
-theme: readthedocs
-extra_css:
-  - css/customWidth.css
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - navigation.search
+    - user_color_mode_toggle  # Enable the color mode toggle
+  palette:
+    - scheme: default
+    - scheme: slate
+    - scheme: ocean
+    - scheme: sepia
+
+docs_dir: docs
 extra:
   alternate:
     - name: English
       link: /en/
       lang: en
-    - name: Ukraine
+    - name: Ukrainian
       link: /uk/
       lang: uk
-plugins:
-  - search:
-      prebuild_index: true
-      encoding: 'utf-8'
-      lang:
-        - en
-        - ru
-        - uk
+
+custom_dir: docs/css
+extra_css:
+  - css/customWidth.css

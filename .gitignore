@@ -1,0 +1,10 @@
+# Environments
+.venv
+
+#PyCharm IDE
+.idea
+.idea/
+idea/
+
+#other
+/etc

@@ -1,14 +1,9 @@
 # Glossary
 
-References
-
-1. <a id="ref1"></a>[https://medconsonline.com/en/glossary](https://medconsonline.com/en/glossary)            
-2. [Словник медичних термінів](https://chemoteka.com.ua/dictionary)
-
 
 ## A
 ### Abdominal pain
-Pain in your tummy that may indicate various conditions of the gastrointestinal and urinary tracts, or other organs. [1](#ref1)
+Pain in your tummy that may indicate various conditions of the gastrointestinal and urinary tracts, or other organs. 
 
 ### Abscess
 An accumulation of pus that forms as a defensive reaction to a bacterial infection. It can occur anywhere in the body. Treatment options range from immobilization of the affected area to surgical dissection.
@@ -195,7 +190,7 @@ RU
 Хирургическое удаление аппендикса (слепой кишки). Вмешательство проводится в случае воспаления или злокачественного процесса.
 
 ### Артериальная гипертензия (гипертония, гипертензия)  
-Аномально высокое давление в артериях, систолического (во время фазы напряжения сердца) до ≥ 140 мм рт. ст. и/или диастолического (когда сердечная мышца расслабляется) ≥ 90 мм рт. ст. Наряду с сахарным диабетом, курением и высоким уровнем холестерина является одним из четырех основных факторов риска развития сердечно-сосудистых заболеваний. [[1]](#ref1)
+Аномально высокое давление в артериях, систолического (во время фазы напряжения сердца) до ≥ 140 мм рт. ст. и/или диастолического (когда сердечная мышца расслабляется) ≥ 90 мм рт. ст. Наряду с сахарным диабетом, курением и высоким уровнем холестерина является одним из четырех основных факторов риска развития сердечно-сосудистых заболеваний. 
 
 ### Артродез  
 Фиксация сустава в неподвижном состоянии с помощью винтов, шурупов или пластин. Как правило, вмешательство проводится при прогрессирующем износе сустава, чтобы облегчить боль и обеспечить возможность выдерживать большие нагрузки.

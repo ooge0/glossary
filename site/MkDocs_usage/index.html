@@ -44,6 +44,10 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                 </li>
               </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../intro/">INTRO</a>
+                </li>
+              </ul>
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">MkDocs_usage</a>
     <ul class="current">
@@ -84,9 +88,18 @@
     </ul>
                 </li>
               </ul>
-              <p class="caption"><span class="caption-text">Glossary</span></p>
+              <p class="caption"><span class="caption-text">Medical glossary</span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../med_glos_1_1/">Med glossary-1</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../medical-glossary-1/">Medical glossary-1</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../oncology-glossary-1/">Oncology glossary-1</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Philosophy</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../en/en__philosophy_glossary_1/">EN</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../uk/ua__philosophy_glossary_1/">UA</a>
                   </li>
               </ul>
       </div>
@@ -136,38 +149,51 @@ Generate site:
 <p>More info: <a href="https://www.mkdocs.org/">MkDocs Documentation</a></p>
 <h2 id="configurations">Configurations</h2>
 <h3 id="yml_config-1-readthedocstitle-ref-theme">yml_config-1- [readthedocs]{.title-ref} theme</h3>
-<p>YML file [readthedocs]{.title-ref} theme .. code-block::yml site_name:
-Glossary Example nav: - Home: med_glos_1_1.md - About:
-MkDocs_usage.rst - Intro: MkDocs_usage.rst theme: readthedocs
-custom_dir: docs/css user_color_mode_toggle: true extra_css: -
-css/customWidth.css</p>
+<p>YML file [readthedocs]{.title-ref} theme </p>
+<pre><code class="language-yml">site_name: Glossary
+nav:
+  - Home: index.md
+  - MkDocs_usage: MkDocs_usage.md
+  - Glossary:
+      - Medical glossary-1: medical-glossary-1.md
+      - Oncology glossary-1: oncology-glossary-1.md
+theme: readthedocs
+extra_css:
+  - css/customWidth.css
+plugins:
+  - search:
+      prebuild_index: true
+      encoding: 'utf-8'
+      lang:
+        - en
+        - ru
+</code></pre>
 <p>This configuration creates design like on the picture above</p>
 <p><img alt="" src="../img/yml_config-1.png" /></p>
 <h3 id="yml_config-2-materialtitle-ref-theme">yml_config-2 - [material]{.title-ref} theme</h3>
 <p>YML file [material]{.title-ref} theme</p>
 <pre><code class="language-yml">site_name: Glossary Example
 nav:
-- Home: med_glos_1_1.md
-- About: MkDocs_usage.rst
-- Intro: MkDocs_usage.rst
+    - Home: med_glos_1_1.md
+    - About: MkDocs_usage.rst
+    - Intro: MkDocs_usage.rst
 theme: material
-name:
 features:
-- navigation.tabs
-- navigation.expand
-- search.highlight
-- search.share
-- navigation.search
-- user_color_mode_toggle  # Enable the color mode toggle
+    - navigation.tabs
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - navigation.search
+    - user_color_mode_toggle  # Enable the color mode toggle
 palette:
-- scheme: default
-- scheme: slate
-- scheme: ocean
-- scheme: sepia
+    - scheme: default
+    - scheme: slate
+    - scheme: ocean
+    - scheme: sepia
 include_sidebar: true
 custom_dir: docs/css
 extra_css:
-  - css/customWidth.css
+      - css/customWidth.css
 </code></pre>
 <p>This configuration creates design like on the picture above</p>
 <p><img alt="" src="../img/yml_config-2.png" /></p>
@@ -266,8 +292,8 @@ documentation.</p>
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../med_glos_1_1/" class="btn btn-neutral float-right" title="Med glossary-1">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../intro/" class="btn btn-neutral float-left" title="INTRO"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../medical-glossary-1/" class="btn btn-neutral float-right" title="Medical glossary-1">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -290,10 +316,10 @@ documentation.</p>
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../intro/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../med_glos_1_1/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../medical-glossary-1/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
