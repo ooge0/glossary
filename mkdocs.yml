@@ -9,6 +9,8 @@ nav:
   - Philosophy:
       - EN: en/en__philosophy_glossary_1.md
       - UA: uk/ua__philosophy_glossary_1.md
+  - Trading:
+      - EN: en/en__trading_glossary_1.md
 theme: readthedocs
 extra_css:
   - css/customWidth.css
