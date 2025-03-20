@@ -1,6 +1,6 @@
 **Published glossary** available at: https://ooge0.github.io/glossary/
 
-Project related information you can find in [intro.rst](docs/intro.rst)
+Project related information you can find in [intro.rst](docs/intro.rst) or  [intro.md](docs/intro.md)
 
 **Project setup details**
 ## 1. Create and activate a new virtual environment:
@@ -62,3 +62,32 @@ pip-compile requirements.in
 pip install -r requirements.txt  
 ```
 
+## 3 Glossary creation
+1. Add 'mkdocs.yml'
+Include all necessary information into the project based on your structure and references on  (mkdocs.org)[https://www.mkdocs.org/]
+
+2. Build the glossary docs on your machine by  
+```shell
+mkdocs build
+```
+or 
+```shell
+mkdocs build --clean
+```
+3. Check how it looks (local publishing)
+```shell
+mkdocs serve
+```
+
+## 4 Glossary publishing
+
+Most simple way to publish glossary is using GiHub. For this will be enough to make separate branch -  'gh-pages' on the GitHub project page and publish your built project by command
+```shell
+mkdocs gh-deploy
+```
+This will automatically push the built site/ to the gh-pages branch.
+
+Now, your site should be live at:
+```
+https://<your-username>.github.io/<your-repo>/
+```
