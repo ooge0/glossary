@@ -14,10 +14,7 @@ The purchase of one company by another.
 A practice that allows marketers and local governments to pool the electric or natural gas consumption of multiple customers, or residents as in the case of local governments, in order to purchase the electricity or natural gas at a bulk rate.  
 
 ### Allegro  
-Legacy Energy Trading and Risk Management system.  
-
-### Altamira  
-Altamira company is a partner for D.Trading. Home page [http://altamira.ai/](http://altamira.ai/).  
+Energy Trading and Risk Management system.  
 
 ### American Style Option  
 An option which can be exercised by the buyer (holder) at any time during its life.  
