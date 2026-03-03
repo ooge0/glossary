@@ -52,6 +52,8 @@ Actual Time of Departure.
 ### AUNTL  
 (Newcastle / Australia) - Regional trading coal hub.  
 
+----------------
+
 ## B  
 ### Backwardation  
 A market where the price for nearby delivery is higher than for further forward months. The opposite of backwardation is contango.  
@@ -127,6 +129,8 @@ The belief that the price is going to rise.
 
 ### Burner-Tip  
 The point at which natural gas is used as a fuel.  
+
+----------------
 
 ## C  
 ### Cal  
