@@ -1,6 +1,0 @@
-SnomedCT - https://www.snomed.org/resources
-Long
-ICD 9 https://www.cdc.gov/nchs/icd/
-ICD 10
-CPT codes - Current Procedural Terminology (CPT®)
-Etc
